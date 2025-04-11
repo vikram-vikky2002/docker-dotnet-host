@@ -17,11 +17,14 @@ namespace BookMyMovieWebServices
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            // if (app.Environment.IsDevelopment())
+            // {
+            //     app.UseSwagger();
+            //     app.UseSwaggerUI();
+            // }
+
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             // app.UseHttpsRedirection();
 
@@ -31,7 +34,7 @@ namespace BookMyMovieWebServices
             app.MapControllers();
 
             app.Urls.Add("http://+:80");
-            
+
             app.Run();
         }
     }
