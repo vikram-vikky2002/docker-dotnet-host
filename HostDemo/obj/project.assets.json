@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Works\\NexTurn\\HostingDemo\\HostDemoSolution\\HostDemo\\HostDemo.csproj",
+      "projectUniqueName": "C:\\Users\\mamun\\Downloads\\New folder\\docker-dotnet-host\\HostDemo\\HostDemo.csproj",
       "projectName": "HostDemo",
-      "projectPath": "E:\\Works\\NexTurn\\HostingDemo\\HostDemoSolution\\HostDemo\\HostDemo.csproj",
+      "projectPath": "C:\\Users\\mamun\\Downloads\\New folder\\docker-dotnet-host\\HostDemo\\HostDemo.csproj",
       "packagesPath": "C:\\Users\\mamun\\.nuget\\packages\\",
-      "outputPath": "E:\\Works\\NexTurn\\HostingDemo\\HostDemoSolution\\HostDemo\\obj\\",
+      "outputPath": "C:\\Users\\mamun\\Downloads\\New folder\\docker-dotnet-host\\HostDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
