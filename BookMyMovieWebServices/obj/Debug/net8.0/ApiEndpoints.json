@@ -1,0 +1,129 @@
+[
+  {
+    "ContainingType": "BookMyMovieWebServices.Controllers.BookMyMovieController",
+    "Method": "AddMovie",
+    "RelativePath": "api/BookMyMovie/AddMovie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movie",
+        "Type": "BookMyMovieWebServices.Models.Movie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookMyMovieWebServices.Controllers.BookMyMovieController",
+    "Method": "AddTheatre",
+    "RelativePath": "api/BookMyMovie/AddTheatre",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "theater",
+        "Type": "BookMyMovieWebServices.Models.Theater",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookMyMovieWebServices.Controllers.BookMyMovieController",
+    "Method": "CancelBooking",
+    "RelativePath": "api/BookMyMovie/CancelBooking",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookMyMovieWebServices.Controllers.BookMyMovieController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/BookMyMovie/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookMyMovieWebServices.Controllers.BookMyMovieController",
+    "Method": "GetAllBookings",
+    "RelativePath": "api/BookMyMovie/GetAllBookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookMyMovieWebServices.Controllers.BookMyMovieController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/BookMyMovie/GetUserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookMyMovieWebServices.Controllers.BookMyMovieController",
+    "Method": "UpdateUserDetails",
+    "RelativePath": "api/BookMyMovie/UpdateUserDetails",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "BookMyMovieWebServices.Models.UserDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookMyMovieWebServices.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookMyMovieWebServices.WeatherForecast, BookMyMovieWebServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
