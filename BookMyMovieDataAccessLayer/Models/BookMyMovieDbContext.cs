@@ -28,7 +28,7 @@ public partial class BookMyMovieDbContext : DbContext
     {
         var builder = new ConfigurationBuilder()
                        .SetBasePath(Directory.GetCurrentDirectory())
-                       .AddJsonFile("appsettings.json");
+                       .AddJsonFile("appsettings.DAL.json");
         var config = builder.Build();
         var connectionString = config.GetConnectionString("BookMyMovieDBConnection");
         if (!optionsBuilder.IsConfigured)

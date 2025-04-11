@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookMyMovieDataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fd0d565a568343203b912cee826932f47eb2c5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca312a1c5a3b0b2ccab50fc29a9434322b66f2f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookMyMovieDataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookMyMovieDataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
